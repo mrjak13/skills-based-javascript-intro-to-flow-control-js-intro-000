@@ -25,7 +25,7 @@ function ageChecker(age){
 function ternaryTeenager(age){
   return age >= 13 && age <= 19 ? "You are a teenager" : "You are not a teenager"
 }
-
+// I did it the long way. (case / return / break) x 7 woops!  this is much cleaner!
 function switchAge(age){
   switch (age) {
   case 13:
